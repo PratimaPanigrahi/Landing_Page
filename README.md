@@ -12,3 +12,9 @@
 - Includes support links (WhatsApp and Community).
 - Features a clean, dark-themed layout.
 - Fully responsive for mobile and desktop devices.
+
+## 🧰 Tech Stack 
+
+| Layer        |  Tools                            |
+|--------------|-----------------------------------------------------|
+| **Frontend** | HTML5, CSS3, JavaScript     |
