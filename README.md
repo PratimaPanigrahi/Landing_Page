@@ -1,9 +1,9 @@
-## 📌 Project Overview
+### 📌 Project Overview
 
 **Dab Arcade** is a static landing page designed to showcase discounted direct in-app game top-ups for popular mobile games. The page presents a clean, visually engaging layout highlighting available offers, supported games, and real-time support options. Though non-interactive, it provides users with essential information in a clear and attractive format, emphasizing discounts and accessibility.
 ---
 
-## ✨ Key Features
+### ✨ Key Features
 
 - Displays discounted top-up offers for multiple games.
 - Shows percentage discounts on each game card.
