@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DabArcade</title>  
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  
+  <!-- Header -->
+  <header class="navbar">
+  <div class="navbar-left">
+    <span class="highlight">Dab</span>Arcade
+  </div>
+  <div class="navbar-center">
+    <nav class="nav-links">
+      <a href="#">Account</a>
+      <a href="#">Orders</a>
+      <a href="#">Support</a>
+    </nav>
+  </div>
+  <div class="navbar-right">
+    <button >Login</button>
+  </div>
+</header>
+
+<!-- Carousel Section -->
+<section id="gameBanner">
+  <div class=" carousel slide" data-ride="carousel" id="carouselExample" data-interval="2000">    
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExample" data-slide-to="1"></li>
+      <li data-target="#carouselExample" data-slide-to="2"></li>
+    </ul>
+
+    <!-- Carousel Slides -->
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-slide-content">
+          <img src="images/first pic.webp" alt="Banner 1" class="banner-img">
+          <div class="banner-text">
+            <p class="discount-text">-10% Discounted Price</p>
+            <h3>Moba Legends: 5v5!</h3>
+            <p class="desc">Start exploring our exclusive packs starting from ₹10</p>
+            <button class="topup-btn">Topup Now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-slide-content">
+          <img src="images/2nd_image.webp" alt="Banner 2" class="banner-img">
+          <div class="banner-text">
+            <p class="discount-text">-20% Discounted Price</p>
+            <h3>Genshin impact</h3>
+            <p class="desc">Start exploring our exclusive packs starting from ₹25</p>
+            <button class="topup-btn">Topup Now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="carousel-slide-content">
+          <img src="images/3rd image.webp" alt="Banner 3" class="banner-img">
+          <div class="banner-text">
+            <p class="discount-text">-35% Discounted Price</p>
+            <h3>Honkai Star Rail</h3>
+            <p class="desc">Start exploring our exclusive packs starting from ₹39</p>
+            <button class="topup-btn">Topup Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Stats Section -->
+
+<div class="dab-container">
+  <h2>Welcome To Dab Arcade</h2>
+  <div class="stats-grid">
+    <div class="stat-box">
+   <div class="text-content">
+    <p>Total Orders</p>
+    <h3 id="totalOrdersCount">84,159</h3>
+  </div>
+  <i class="fa-solid fa-signal"></i>
+</div>
+
+    <div class="stat-box">
+      <div class="text-content">
+  <p>Active Users</p>
+  <h3 id="activeUsersCount">19,605</h3>
+  </div>
+  <i class="fa-solid fa-user"></i>
+</div>
+
+
+    <div class="stat-box">
+      <div class="text-content">
+      <p>Brand Legacy</p>
+      <h3>8 Year</h3>
+      </div>
+      <i class="fa-solid fa-user-shield"></i>
+    </div>
+    <div class="stat-box">
+      <div class="text-content">
+      <p>Avg Rating</p>
+      <h3>9/10</h3>
+      </div>
+      <i class="fa-solid fa-star"></i>
+    </div>
+  </div>
+
+  <!-- Support Notice -->
+  <section class="support-section">
+
+
+    <div class="support-message"> 
+       <i class="fa-solid fa-headphones" class="logo-container" style="font-size:38px;"></i>     
+      <p>
+        For assistance, please contact our customer support via LiveChat for real-time support.
+        You can also reach us through text messages or messaging apps. Our team is available <br>
+         14hr/7days [10:00am - 11:59pm IST] to assist you with any order or transaction-related inquiries. We're here to help.
+      </p>
+    </div>
+
+    <div class="support-buttons">
+      <button class="whatsapp-btn">Whatsapp Support</button>
+      <button class="community-btn">Community Channel</button>
+    </div>
+  </section>
+</div>
+
+
+<div class="dab-data">
+    <h2>Direct In-App Topups</h2>
+    <div class="topup-grid">
+      <!-- Game Card -->
+      <div class="game-card">
+        <img src="images/moba.webp" alt="Moba Legends">
+        <span class="badge">10% Off</span>
+        <p>Moba Legends: 5v5!</p>
+      </div>
+
+      <div class="game-card">
+        <img src="images/genshin.webp" alt="Genshin Impact">
+        <span class="badge">25% Off</span>
+        <p>Genshin Impact</p>
+      </div>
+
+      <div class="game-card">
+        <img src="images/honkai-starrail.webp" alt="Honkai">
+        <span class="badge">10% Off</span>
+        <p>Honkai: Star Rail</p>
+      </div>
+
+      <div class="game-card">
+        <img src="images/honor-of-kings.webp" alt="Honor of Kings">
+        <span class="badge">10% Off</span>
+        <p>Honor of Kings</p>
+      </div>
+
+      <div class="game-card">
+        <img src="images/farlight-84.webp" alt="Farlight 84">
+        <span class="badge">10% Off</span>
+        <p>Farlight 84</p>
+      </div>
+
+      <div class="game-card">
+        <img src="images/zenless zone zero.webp" alt="Zenless Zone Zero">
+        <span class="badge">15% Off</span>
+        <p>Zenless Zone Zero</p>
+      </div>
+
+      <div class="game-card">
+        <img src="images/super-sus.webp" alt="Super Sus">
+        <span class="badge">35% Off</span>
+        <p>Super Sus</p>
+      </div>
+
+      <div class="game-card">
+        <img src="images/marvelrivals.webp" alt="Marvel Rivals">
+        <span class="badge">10% Off</span>
+        <p>Marvel Rivals</p>
+      </div>
+
+      <div class="game-card">
+        <img src="images/wuwa.webp" alt="Wuthering Waves">
+        <span class="stock-out">Stock Out</span>
+        <p>Wuthering Waves</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer>
+    <p>Copyright © 2018-2025 Dab Arcade<br>
+    First Floor, House No 57, Street No 5, Lohara, Ludhiana, Punjab - 141016</p>
+    <div class="footer-links">
+      <a href="#">Contact Us</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Refund Policy</a>
+      <a href="#">Copyright</a> 
+    </div>
+  </footer>
+
+
+<!-- Scripts should be placed outside the content container -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
